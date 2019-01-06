@@ -22,6 +22,17 @@ $activeLangLabel = $languages[$lang];
 unset($languages[$lang]);
 
 ?>
+<style>
+ .wrap{
+    background: linear-gradient(to right, #009FFF, #ec2F4B);
+    
+}
+.footer{
+    background: linear-gradient(to right, #40E0D0, #FF8C00,#FF0080);
+}
+.container{
+    
+}   </style>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
