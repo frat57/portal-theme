@@ -6,4 +6,4 @@ return [
     'Sample' => 'Örnek',
     'Login' => 'Giriş',
     'Sign Up' => 'Kayıt Ol',
-];
+]; 
