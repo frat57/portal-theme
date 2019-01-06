@@ -44,8 +44,18 @@ yii::$app->session->set('lang',$lang);
 $activeLangLabel = $languages[$lang];
 unset($languages[$lang]);
 
-
 ?>
+<style>
+ .wrap{
+    background: linear-gradient(to right, #009FFF, #ec2F4B);
+    
+}
+.footer{
+    background: linear-gradient(to right, #40E0D0, #FF8C00,#FF0080);
+}
+.container{
+    
+}   </style>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
@@ -63,7 +73,7 @@ unset($languages[$lang]);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => 'Yemek Listem',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -121,6 +131,7 @@ unset($languages[$lang]);
 </div>
 
 <footer class="footer">
+
     <div class="container">
         <p class="pull-left">&copy; Kocaeli University Open Source Lab <?= date('Y') ?></p>
 
