@@ -47,5 +47,5 @@ class Module extends \yii\base\Module
         return Yii::t('theme/' . $category, $message, $params, $language);
     }
 
-
+ 
 }
